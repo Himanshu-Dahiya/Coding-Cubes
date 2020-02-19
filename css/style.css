@@ -14,6 +14,7 @@ Navigation bar starts
 .navbar
 {
     padding: 22px 50px 22px 50px;
+     background-color: rgba(0,0,0,.9)!important;
 }
 
 .navbar ul li a
@@ -155,4 +156,69 @@ Slider starts
     text-decoration: none;
     background-color: deepskyblue;
     border:1px solid deepskyblue;
+}
+
+.text ,.typed-cursor
+{
+    font-size: 50px;
+    display: inline;
+}
+
+.primary
+{
+    color:orangered;
+}
+
+.typed-cursor
+{
+    opacity: 1;
+    animation: blink 0.75s infinite;
+    -webkit-animation: blink 0.75s infinite;/*for chrome responsiveness*/
+    -moz-animation: blink 0.75s infinite;/*for mozilla responpsiveness*/
+}
+
+@keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes blink      /*Now for 2 different prefixes*/
+{
+    0%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
 }
