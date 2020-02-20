@@ -11,6 +11,22 @@ jQuery(document).ready(function(){
          typespeed: 0,
          loop:true
      });
+    
+    $(window).scroll(function(){
+       var top=$(window).scrollTop();
+        if(top>=60)
+            {
+                $("nav").addClass('secondary');
+                console.log("HI");
+            }
+        else
+            {
+                if($("nav").hasClass('secondary'))
+                    {
+                        $("nav").removeClass('secondary');
+                    }
+            }
+    });
 });
 
 
