@@ -1,10 +1,6 @@
 /*=====================
 Basic Properties
 ======================*/
-body
-{
-    height: 2000px;
-}
 
 *{
     padding: 0;
@@ -237,3 +233,28 @@ Slider starts
         opacity: 1;
     }
 }
+
+/*=====================
+Services section starts
+======================*/
+
+.service-wrap
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    /*overflow: hidden;*/
+    padding: 25px 35px;
+    /*position: relative;*/
+    /*z-index: 9;*/
+    margin-top: 20px;
+}
+
+.service-wrap:hover
+{
+    color:white;
+    background-color: black;
+}
+
+/*.service-wrap:hover .service-wrap i
+{
+    transform: rotate(360deg);
+}*/
