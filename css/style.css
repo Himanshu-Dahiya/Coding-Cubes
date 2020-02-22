@@ -258,3 +258,29 @@ Services section starts
 {
     transform: rotate(360deg);
 }*/
+
+/*=====================
+work section starts
+======================*/
+
+.works
+{
+    margin-top: 25px;
+}
+
+.row.no-gutters [class*=col-]
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper   /*image will fit to screen*/
+{
+    overflow: hidden;
+}
+
+.img-wrapper img:hover
+{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
