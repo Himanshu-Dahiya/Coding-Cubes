@@ -284,3 +284,58 @@ work section starts
     transform: scale(1.5);
     cursor: zoom-in;
 }
+
+/*=====================
+work section ends
+======================*/
+
+/*=====================
+team section starts
+======================*/
+
+.team-member
+{
+    margin:0 25px;
+}
+.team-member-info
+{
+    padding:10px 0 30px 0;
+}
+.team-member-name
+{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+.team-member-designation
+{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    color: deepskyblue;
+}
+.social-list
+{
+    padding-left: 0;
+}
+.social-list li
+{
+    list-style: none;
+    display: inline-block;
+    width:10px;
+    height:10px;
+    margin-top: 10px;
+    margin-right: 6px;
+    font-size: 17px;
+}
+.social-list i
+{
+    color:#64707b;
+}
+
+
+/*=====================
+team section ends
+======================*/
