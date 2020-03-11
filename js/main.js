@@ -27,6 +27,14 @@ jQuery(document).ready(function(){
                     }
             }
     });
+    
+        $('.works').magnificPopup({
+          delegate: 'a', // child items selector, by clicking on it popup will open
+          type: 'image',
+            gallery:{            //for navigating arrows
+                enabled:true
+            }
+});
 });
 
 
