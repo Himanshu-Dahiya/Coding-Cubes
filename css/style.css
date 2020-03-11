@@ -295,7 +295,11 @@ team section starts
 
 .team-member
 {
-    margin:0 25px;
+    margin-top: 50px;
+}
+.team-member
+{
+    margin:0 15px;
 }
 .team-member-info
 {

@@ -17,7 +17,6 @@ jQuery(document).ready(function(){
         if(top>=60)
             {
                 $("nav").addClass('secondary');
-                console.log("HI");
             }
         else
             {
@@ -33,8 +32,26 @@ jQuery(document).ready(function(){
           type: 'image',
             gallery:{            //for navigating arrows
                 enabled:true
+            }     
+        });
+    $('#team-members').owlCarousel({
+        items:3,
+        autoplay:true,
+        smartSpeed:700,
+        loop:true,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:2
+            },
+            768:{
+               items:3 
             }
-});
+        }
+    });
 });
 
 
