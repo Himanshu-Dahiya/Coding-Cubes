@@ -384,3 +384,32 @@ team section starts
 /*=====================
 team section ends
 ======================*/
+
+.panel-heading
+{
+    background-color: #34495e;
+}
+
+.panel-title a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 35px;
+    color: white;
+    position: relative;
+    display: block;
+    border: none;
+}
+
+.panel-body
+{
+    margin-bottom: 15px;
+    background-color: #ebebeb;
+    font-size: 14px;
+    color:#8c8c8c;
+    position: relative;
+    padding: 15px 25px;
+    border-top: none;
+    line-height: 25px;
+}
