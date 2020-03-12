@@ -339,6 +339,47 @@ team section starts
     color:#64707b;
 }
 
+.carousel-inner img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.testimonials
+{
+    background-image: url(..//images/review.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 155px;
+}
+
+.testimonials .carousel-indicators
+{
+    bottom: -60px;
+}
+
+.border-bottom
+{
+    width: 40px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.carousel-inner p
+{
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
 
 /*=====================
 team section ends
