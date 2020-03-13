@@ -385,6 +385,11 @@ team section starts
 team section ends
 ======================*/
 
+
+/*=====================
+faq section starts
+======================*/
+
 .panel-heading
 {
     background-color: #34495e;
@@ -413,3 +418,48 @@ team section ends
     border-top: none;
     line-height: 25px;
 }
+
+/*=====================
+faq section ends
+======================*/
+
+
+
+/*=====================
+video section starts
+======================*/
+
+.color-overlay
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/video.jpg);
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    overflow: hidden;
+    margin-top: 40px;
+    background-attachment: fixed;
+}
+
+.play
+{
+    background: #fff url(..//images/play.jfif) no-repeat 60% 50% ;
+    width: 110px;
+    height: 110px;
+    border-radius: 150px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 0 20px rgba(0,167,221,0.5);
+    transition: all .1s ease-in;
+}
+
+.play:hover
+{
+    box-shadow: 0 0 15px 20px rgba(0,84,111,0.5);
+}
+
+/*=====================
+video section ends
+======================*/
+
+
