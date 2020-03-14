@@ -462,4 +462,97 @@ video section starts
 video section ends
 ======================*/
 
+/*=====================
+blog section ends
+======================*/
+
+.blog .col-md-4
+{
+    box-shadow: 3px 0px 10px rgba(0,0,0,0.1);    
+}
+
+.news-image
+{
+    transform: scale(0.8);
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+
+.news-image:hover
+{
+    transform: scale(1);
+    opacity:1;
+}
+
+.date
+{
+    background: orange;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    left: 0;
+    top:0;
+    position: absolute;
+}
+
+.blog i
+{
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.blog .fa-facebook
+{
+    color:#3b5995;
+}
+.blog .fa-twitter
+{
+    color:#0084b4;
+}
+.blog .fa-linkedin
+{
+    color:#0075b5;
+}
+.blog .fa-youtube
+{
+    color:red;
+}
+.blog .fa-whatsapp
+{
+    color:#34af23;
+}
+
+.blog .col-md-4 p
+{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.blog a
+{
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #34495e;
+    color: aliceblue;
+    padding: 10px 20px;
+    transition: all 0.4s ease-in;
+}
+
+.blog a:hover
+{
+    color: #34495e;
+    background-color: transparent;
+    border-top-right-radius: 20px;
+    border:1px solid #34495e;
+}
+
+/*=====================
+blog section ends
+======================*/
 
