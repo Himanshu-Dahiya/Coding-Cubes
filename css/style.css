@@ -556,3 +556,42 @@ blog section ends
 blog section ends
 ======================*/
 
+/*=====================
+stat section starts
+======================*/
+
+.stat
+{
+    background-image: url(..//images/stat.jpg);
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: aliceblue;
+    margin-top: 100px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.stat i
+{
+    font-size: 80px;
+}
+
+.stat h2
+{
+    font-weight: bolder;
+    font-size: 42px;
+    color: deepskyblue;
+}
+
+.stat p
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*=====================
+stat section ends
+======================*/
+
+
