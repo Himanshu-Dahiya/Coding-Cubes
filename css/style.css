@@ -594,4 +594,64 @@ stat section starts
 stat section ends
 ======================*/
 
+/*=====================
+contact-area section starts
+======================*/
+
+.contact-area
+{
+    margin-top: 80px;    
+}
+
+.form-control
+{
+    border: 1px solid ;
+}
+
+.contact-form button
+{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+}
+
+.contact-area .border-bottom
+{
+    width: 40px;
+    height: 2px;
+    background: black;
+}
+
+#contact-infos
+{
+    background-color: darkcyan;
+    padding-bottom: 5px;
+    padding-top: 35px;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    
+}
+
+#contact-infos .fa
+{
+    color: aliceblue;
+    font-size: 26px;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+#contact-infos p
+{
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+/*=====================
+contact-area section ends
+======================*/
+
 
