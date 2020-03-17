@@ -654,4 +654,68 @@ contact-area section starts
 contact-area section ends
 ======================*/
 
+/*=====================
+map-area section starts
+======================*/
+
+.map
+{
+    margin-top: 30px;
+}
+
+/*=====================
+map-area section ends
+======================*/
+
+/*=====================
+footer-area section starts
+======================*/
+
+.footer
+{
+    background-image: url(..//images/footer.jpg);
+    color: aliceblue;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+}
+
+.social-icons a
+{
+    margin: 0 16px 20px 16px;
+    font-size: 30px;
+    color: deepskyblue;
+}
+
+.footer .fa
+{
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+    line-height: 2;
+    border: 10px solid #34495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+}
+
+.social-icons .fa:hover
+{
+    border: 10px solid white;
+    transform: rotate(360deg);
+}
+
+.borderfooter
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+/*=====================
+footer-area section ends
+======================*/
+
 
