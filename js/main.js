@@ -58,7 +58,7 @@ jQuery(document).ready(function(){
         time:1000
     });
     
-    $('a').smoothScroll();
+    $('a.nav-link').smoothScroll();
 });
 
 
